@@ -1,19 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import  FontAwesomeIcon  from '@fortawesome/react-fontawesome';
+import { faCheckSquare } from '@fortawesome/fontawesome-free-solid';
+import { Container, Row, Col } from 'react-bootstrap';
+import './Custom.css';
+
+library.add(faCheckSquare);
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+	<div className="bg">
+		<Container>
+		 	<Row>
+		    	<Col> 
+                    <div className="lp-left"> 
+                        Hi
+                    </div> 
+                </Col>
+		 		<Col> 
+                    <div className="lp-right"> 
+            
+                    </div> 
+                </Col>
+		  	</Row>
+		</Container>
+	</div>
     );
   }
 }
