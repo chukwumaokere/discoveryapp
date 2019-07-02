@@ -1,0 +1,31 @@
+.bg {
+	#background-color: red;
+}
+.lp-left{
+    background-color: rebeccapurple;
+    height: -webkit-fill-available;
+    display: flex;
+}
+.lp-right{
+    height: -webkit-fill-available;
+}
+.info-box{
+
+}
+.icon-box{
+
+}
+.icon-size{
+    width: 70px;
+}
+.info-box-item{
+    margin: 30px 0 30px 0;
+    font-size: x-large;
+    color: white;
+}
+.col {
+    #padding: 0;
+}
+.row {
+    margin-right: 0;
+}
